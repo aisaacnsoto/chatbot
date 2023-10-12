@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat 3D</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'chat/styles.css' %}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>CHAT 3D</h1>
+        </div>
+        <div class="chat-messages">
+            <div class="message received">
+                <p>¡Hola! ¿Cómo estás?</p>
+                <span class="timestamp">10:00 AM</span>
+            </div>
+            <div class="message sent">
+                <p>¡Hola! Estoy bien, gracias.</p>
+                <span class="timestamp">10:02 AM</span>
+            </div>
+            <div class="message received">
+                <p>¡Hola! ¿Cómo estás?</p>
+                <span class="timestamp">10:00 AM</span>
+            </div>
+            <div class="message sent">
+                <p>¡Hola! Estoy bien, gracias.</p>
+                <span class="timestamp">10:02 AM</span>
+            </div>
+            <div class="message received">
+                <p>¡Hola! ¿Cómo estás?</p>
+                <span class="timestamp">10:00 AM</span>
+            </div>
+            <div class="message sent">
+                <p>¡Hola! Estoy bien, gracias.</p>
+                <span class="timestamp">10:02 AM</span>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Escribe tu mensaje...">
+            <button>Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
